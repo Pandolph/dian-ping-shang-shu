@@ -1,6 +1,6 @@
 # DianPingShangHu
 
-这个示例项目是一个商户管理的综合应用，它包含了一个真实的iOS应用所需的大部分功能（数据层面）。
+这个示例项目是一个商户管理的综合应用，展现了 LeanCloud平台的数据存储、统计分析功能。
 
 ![a](https://cloud.githubusercontent.com/assets/5022872/5717832/a9098596-9b41-11e4-997d-aa1c49a94c16.png)
 
