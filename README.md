@@ -1,6 +1,10 @@
 # DianPingShangHu
 
-这个示例项目是一个商户管理的综合应用，它包含了一个真实的iOS应用所需的大部分功能。
+这个示例项目是一个商户管理的综合应用，它包含了一个真实的iOS应用所需的大部分功能（数据层面）。
+
+![a](https://cloud.githubusercontent.com/assets/5022872/5717832/a9098596-9b41-11e4-997d-aa1c49a94c16.png)
+
+![b](https://cloud.githubusercontent.com/assets/5022872/5717833/a9337ba8-9b41-11e4-9446-9e2dd88a65be.png)
 
 ## 如何运行
 
