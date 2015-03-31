@@ -1,6 +1,10 @@
 # DianPingShangHu
 
-这个示例项目是一个商户管理的综合应用，它包含了一个真实的iOS应用所需的大部分功能。
+这个示例项目是一个商户管理的综合应用，展现了 LeanCloud平台的数据存储、统计分析功能。
+
+![a](https://cloud.githubusercontent.com/assets/5022872/5717832/a9098596-9b41-11e4-997d-aa1c49a94c16.png)
+
+![b](https://cloud.githubusercontent.com/assets/5022872/5717833/a9337ba8-9b41-11e4-9446-9e2dd88a65be.png)
 
 ## 如何运行
 
@@ -24,5 +28,4 @@
 ## 其他
 
 如果您在使用AVOSCloud SDK中, 有自己独特高效的用法, 非常欢迎您fork 并提交pull request, 帮助其他开发者更好的使用SDK. 我们将在本项目的贡献者中, 加入您的名字和联系方式(如果您同意的话)
-=======
 
