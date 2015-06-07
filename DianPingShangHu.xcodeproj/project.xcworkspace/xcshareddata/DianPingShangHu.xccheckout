@@ -7,46 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D187E7F1-492E-49E9-8B44-AE5D95400723</string>
 	<key>IDESourceControlProjectName</key>
-	<string>DianPingShangHu</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8ACFE5037BBA7C3DB34C943CA65881B264CE6E1A</key>
-		<string>github.com:avoscloud/avoscloud-demo.git</string>
-		<key>C56E8E3043E23A7A175E97C5527406C7FCE68265</key>
-		<string>github.com:avoscloud/iOS-SDK-demos.git</string>
+		<key>396E1F4E9922CC423994AA50C8246AA133D5A47B</key>
+		<string>https://github.com/Pandolph/dian-ping-shang-shu.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DianPingShangHu/DianPingShangHu.xcodeproj</string>
+	<string>DianPingShangHu.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8ACFE5037BBA7C3DB34C943CA65881B264CE6E1A</key>
-		<string>../../../..</string>
-		<key>C56E8E3043E23A7A175E97C5527406C7FCE68265</key>
-		<string>../../..</string>
+		<key>396E1F4E9922CC423994AA50C8246AA133D5A47B</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:avoscloud/iOS-SDK-demos.git</string>
+	<string>https://github.com/Pandolph/dian-ping-shang-shu.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C56E8E3043E23A7A175E97C5527406C7FCE68265</string>
+	<string>396E1F4E9922CC423994AA50C8246AA133D5A47B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8ACFE5037BBA7C3DB34C943CA65881B264CE6E1A</string>
+			<string>396E1F4E9922CC423994AA50C8246AA133D5A47B</string>
 			<key>IDESourceControlWCCName</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C56E8E3043E23A7A175E97C5527406C7FCE68265</string>
-			<key>IDESourceControlWCCName</key>
-			<string>iOS</string>
+			<string>dian-ping-shang-shu</string>
 		</dict>
 	</array>
 </dict>

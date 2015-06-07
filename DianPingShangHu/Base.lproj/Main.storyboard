@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Main Tab Bar Controller - 主界面Tabbar-->
@@ -42,7 +42,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7J-1X-io1">
                                 <rect key="frame" x="0.0" y="71" width="320" height="288"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您的用户名" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="CFj-pb-YjE">
                                         <rect key="frame" x="95" y="37" width="205" height="30"/>
@@ -84,7 +83,6 @@
                                     </label>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFE-AR-eKQ">
                                         <rect key="frame" x="171" y="137" width="129" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                         <state key="normal" title="立即注册">
@@ -96,7 +94,6 @@
                                     </button>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKe-IY-O3G">
                                         <rect key="frame" x="20" y="137" width="129" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="129" id="OKy-VC-7up"/>
@@ -112,7 +109,6 @@
                                     </button>
                                     <button hidden="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oM-Xd-OE6">
                                         <rect key="frame" x="92" y="92" width="136" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                         <state key="normal" title="立即发送验证邮件">
@@ -182,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W3Z-H4-DBB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1334" y="854"/>
+            <point key="canvasLocation" x="1468" y="1414"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Tob-p5-KP7">
@@ -201,7 +197,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWK-mh-6ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="854"/>
+            <point key="canvasLocation" x="914" y="1482"/>
         </scene>
         <!--Zhu Ce Controller - 注册-->
         <scene sceneID="ehh-v1-5iX">
@@ -217,7 +213,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P2V-mT-faN">
                                 <rect key="frame" x="0.0" y="88" width="320" height="239"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您的用户名" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="X78-UU-yf3">
                                         <rect key="frame" x="95" y="20" width="205" height="30"/>
@@ -279,7 +274,6 @@
                                     </label>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0l-8S-2hv">
                                         <rect key="frame" x="137" y="189" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="46" id="Ob2-q7-qQo"/>
@@ -341,9 +335,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZUc-NR-ugd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1697" y="854"/>
+            <point key="canvasLocation" x="1931" y="996"/>
         </scene>
-        <!--Navigation Controller - 设置-->
+        <!--设置-->
         <scene sceneID="OQA-DV-CYx">
             <objects>
                 <navigationController definesPresentationContext="YES" id="pzQ-MT-KSN" sceneMemberID="viewController">
@@ -361,7 +355,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UkI-bg-1an" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-76" y="854"/>
+            <point key="canvasLocation" x="-176" y="930"/>
         </scene>
         <!--She Zhi Controller - 设置-->
         <scene sceneID="k7f-2s-q0a">
@@ -377,7 +371,6 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="JjK-cL-Mjf">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DPSheZhiCell" rowHeight="48" id="AuQ-M9-dPc" customClass="DPSheZhiCell">
@@ -389,7 +382,6 @@
                                             <subviews>
                                                 <button hidden="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i46-mR-1rZ">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                                     <state key="normal">
@@ -401,7 +393,6 @@
                                                 </button>
                                                 <button hidden="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKv-iG-8IG">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                                     <state key="normal">
@@ -413,7 +404,6 @@
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t8r-Kb-nMm">
                                                     <rect key="frame" x="20" y="13" width="21" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <color key="tintColor" red="0.15294118230000001" green="0.64705884459999996" blue="0.98039221759999995" alpha="1" colorSpace="deviceRGB"/>
                                                     <constraints>
@@ -472,9 +462,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RIW-Ku-ueM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="275" y="854"/>
+            <point key="canvasLocation" x="187" y="946"/>
         </scene>
-        <!--Tian Jia Controller - 添加-->
+        <!--添加-->
         <scene sceneID="WRN-fG-nDL">
             <objects>
                 <tableViewController hidesBottomBarWhenPushed="YES" id="qeq-ct-2oV" customClass="DPTianJiaController" sceneMemberID="viewController">
@@ -502,7 +492,6 @@
                                         </label>
                                         <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="NeX-Nx-pEn">
                                             <rect key="frame" x="85" y="9" width="215" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="15"/>
                                             <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -609,7 +598,6 @@
                     <subviews>
                         <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请在系统提示“扫街乐”要使用您当前的位置时点击“好”！如果仍然不能定位，请您检查是否已经打开设置-隐私-定位服务-扫街乐后面的开关。" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="240" translatesAutoresizingMaskIntoConstraints="NO" id="yiw-d3-vkE">
                             <rect key="frame" x="40" y="20" width="240" height="102"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -617,7 +605,6 @@
                         </label>
                         <label hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="经度：37.0085" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="KSr-nT-pf3">
                             <rect key="frame" x="130" y="130" width="150" height="25"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="15"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -625,7 +612,6 @@
                         </label>
                         <label hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="纬度：-117.0085" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="R6h-i0-yso">
                             <rect key="frame" x="130" y="153" width="150" height="25"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="15"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -633,11 +619,9 @@
                         </label>
                         <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rRW-qC-WDa">
                             <rect key="frame" x="54" y="144" width="20" height="20"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </activityIndicatorView>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nla-oy-mzf">
                             <rect key="frame" x="40" y="130" width="48" height="48"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" image="LocateMe">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -652,7 +636,7 @@
             </objects>
             <point key="canvasLocation" x="992" y="-460"/>
         </scene>
-        <!--Navigation Controller - 我的商户-->
+        <!--我的商户-->
         <scene sceneID="2sL-1p-aSo">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Ci6-WE-UPd" sceneMemberID="viewController">
@@ -672,7 +656,7 @@
             </objects>
             <point key="canvasLocation" x="-76" y="190"/>
         </scene>
-        <!--Wo De Shang Hu Controller - 我的商户-->
+        <!--我的商户-->
         <scene sceneID="uTH-Lk-vZz">
             <objects>
                 <viewController storyboardIdentifier="DPWoDeShangHuController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VEV-iI-ebU" customClass="DPWoDeShangHuController" sceneMemberID="viewController">
@@ -877,9 +861,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOn-cJ-dXH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="275" y="1500"/>
+            <point key="canvasLocation" x="343" y="1568"/>
         </scene>
-        <!--Navigation Controller - 云统计-->
+        <!--云统计-->
         <scene sceneID="i8O-MA-4nC">
             <objects>
                 <navigationController definesPresentationContext="YES" id="RhB-xT-btd" sceneMemberID="viewController">
@@ -896,9 +880,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6c-0z-h8s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-76" y="1500"/>
+            <point key="canvasLocation" x="-452" y="1560"/>
         </scene>
-        <!--Navigation Controller - 草稿箱-->
+        <!--草稿箱-->
         <scene sceneID="CBZ-Zu-Lym">
             <objects>
                 <navigationController definesPresentationContext="YES" id="lu5-ka-R0M" sceneMemberID="viewController">
@@ -1025,7 +1009,6 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="o31-x6-Kq5">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DPXiangXiXinXiCell" rowHeight="48" id="M1J-2M-yNq" customClass="DPXiangXiXinXiCell">
@@ -1076,7 +1059,6 @@
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edw-XD-c7l">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="上传" style="plain" id="F8s-EA-FsS">
                                         <connections>
@@ -1225,7 +1207,6 @@
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xcW-Bo-WDI">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="添加" style="plain" id="GVS-Vj-n1g">
                                         <connections>
@@ -1277,7 +1258,7 @@
             </objects>
             <point key="canvasLocation" x="610" y="854"/>
         </scene>
-        <!--Xiang Xi Tong Ji Controller - 详细统计-->
+        <!--详细统计-->
         <scene sceneID="LGP-Ug-nqP">
             <objects>
                 <viewController storyboardIdentifier="DPXiangXiTongJiController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="N4a-52-9a3" customClass="DPXiangXiTongJiController" sceneMemberID="viewController">
@@ -1359,7 +1340,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31b-IS-KR5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="610" y="1500"/>
+            <point key="canvasLocation" x="710" y="2064"/>
         </scene>
     </scenes>
     <resources>
@@ -1375,8 +1356,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Bqi-JN-Jvx"/>
+        <segue reference="kgb-v5-E7x"/>
+        <segue reference="ass-hU-jZ6"/>
         <segue reference="XH8-WH-qbW"/>
-        <segue reference="abo-rZ-1c8"/>
     </inferredMetricsTieBreakers>
 </document>

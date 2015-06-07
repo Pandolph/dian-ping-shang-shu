@@ -8,8 +8,8 @@
 
 #import "DPConfig.h"
 
-NSString *const DPApplicationId = @"0rpcywjj9uw9r7k5ajemhfkyjr4omtpx6pi0qeq9iabftqug";
-NSString *const DPClientKey = @"uqy35nhq6nhwtmk1ec33iifo8w02o958rtq4lrg5d0embz7x";
+NSString *const DPApplicationId = @"7l7daqx1iauqxz4aqqlzvkbtt1ii0q2wcgcgvco0dfwks5pl";
+NSString *const DPClientKey = @"8bxl382ezallz1ynmh6niv0290b8uxavsv9xb74ey59lqnus";
 
 NSString *const DPLoginStatusChangedNotification = @"DPLoginStatusChangedNotification";
 NSString *const DPServerObjectUpdatedNotification = @"DPServerObjectUpdatedNotification";
